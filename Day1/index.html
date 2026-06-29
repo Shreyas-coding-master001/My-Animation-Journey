@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="./src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basics</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="one">
+        <h1>.timeline and .to("", {}) and .from()</h1>
+        <div class="box red"></div>
+        <div class="box blue"></div>
+        <div class="box yellow"></div>
+      </div>
+      <div id="two">
+        <h2>.fromTo("", {}) and .set()</h2>
+
+        <div class="cicle cicleRotation"></div>
+        <div class="some"></div>
+      </div>
+      <div class="desciption">
+        <h2>Some Points I Learned</h2>
+        <p>.set() works directly so animation with time does not apply here and work similarly to .to()</p>
+        <p>.fromTo() dealy in first {} means from default to given position and in second {} dealy is applied to from{start}-to{end}</p>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
