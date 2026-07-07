@@ -71,11 +71,11 @@ npm run dev
 # 📅 Daily Progress
 
 | Day | Topic | Tech | Status | Live |
-|-----|-------|------|--------|
+|-----|-------|------|--------| ---- |
 | Day 1 | GSAP Basics, `.to()`, `.from()`, `.fromTo()`, `.set()`, `.timeline()`, easing, opacity & transform animations | Vanilla JS + Vite | ✅ Completed | `/Day1` |
 | Day 2 | GASP Basics, `.stagger()`, `.timeline()`, `easing` | Vanilla JS + Vite | ✅ Completed | `/Day2/` && `/Day2/index.html` |
-| Day 3 | Coming Soon | - | ⏳ |  |
-| Day 4 | Coming Soon | - | ⏳ |  |
+| Day 3 | Coming Soon | - | ⏳ | - |
+| Day 4 | Coming Soon | - | ⏳ | - |
 
 ---
 
