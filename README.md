@@ -64,16 +64,18 @@ npm install
 npm run dev
 ```
 
+6. Can Check All the routes for all Animation as per Daily Progress
+
 ---
 
 # 📅 Daily Progress
 
-| Day | Topic | Tech | Status |
+| Day | Topic | Tech | Status | Running |
 |-----|-------|------|--------|
-| Day 1 | GSAP Basics, `.to()`, `.from()`, `.fromTo()`, `.set()`, `.timeline()`, easing, opacity & transform animations | Vanilla JS + Vite | ✅ Completed |
-| Day 2 | Coming Soon | - | ⏳ |
-| Day 3 | Coming Soon | - | ⏳ |
-| Day 4 | Coming Soon | - | ⏳ |
+| Day 1 | GSAP Basics, `.to()`, `.from()`, `.fromTo()`, `.set()`, `.timeline()`, easing, opacity & transform animations | Vanilla JS + Vite | ✅ Completed | `http:localhost:5173/` |
+| Day 2 | GASP Basics, `.stagger()`, `.timeline()`, `easing` | Vanilla JS + Vite | ✅ Completed | `http://localhost:5173/` && `http://localhost:5173/index.html` |
+| Day 3 | Coming Soon | - | ⏳ |  |
+| Day 4 | Coming Soon | - | ⏳ |  |
 
 ---
 
