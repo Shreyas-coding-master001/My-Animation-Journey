@@ -1,5 +1,3 @@
-import {gsap} from "gsap";
-
 gsap.from("h2 span",{
   yPercent: 100,
   delay: 0.6,
