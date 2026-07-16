@@ -1,4 +1,4 @@
-import {gsap} from "gsap";
+// import {gsap} from "gsap";
 
 let count = 0;
 let h4 = document.querySelector("h4");

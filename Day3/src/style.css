@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+head,body,main{
+  height: 100%;
+  width: 100%;
+  font-family: inherit;
+}
+
+#first-page{
+  height: 300vh;
+  width: 100%;
+  position: relative;
+}
+
+#first-page .one{
+  width: 100%;
+  height: 100vh;
+}
+
+.one{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    text-align:center;
+    background:linear-gradient(135deg,#111,#1f1f1f);
+}
+
+.one h3:first-child{
+    font-size:3rem;
+    font-weight:700;
+    letter-spacing:1px;
+}
+.one h3:last-child{
+    font-size:5rem;
+    font-weight:300;
+    letter-spacing:2px;
+}
+
+.one span{
+    background:linear-gradient(90deg,#FFD54F,#FF9800,#FF5722);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+
+#first-page .two img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#first-page .three img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#first-page .two{
+  width: 100%;
+  height: 100vh;
+}
+#first-page .two .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+
+#first-page .three{
+  width: 100%;
+  height: 100vh;
+}
+
+/* Animated "thank you" content that appears to push the image */
+.three{
+  position: relative;
+  overflow: hidden;
+  z-index: 12;
+}
+
+.three img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transform-origin: center;
+}
+
+.three .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  z-index: 15;
+  animation: contentRise 700ms cubic-bezier(.22,.9,.32,1) 120ms forwards;
+  pointer-events: none;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  
+  button {
+    background-color: #f9f9f9;
+  }
+}
