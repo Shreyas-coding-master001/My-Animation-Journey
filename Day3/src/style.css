@@ -59,6 +59,7 @@ head,body,main{
 
 .one span{
     background:linear-gradient(90deg,#FFD54F,#FF9800,#FF5722);
+    background-clip: text;
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
